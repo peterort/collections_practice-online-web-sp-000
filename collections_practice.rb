@@ -21,6 +21,7 @@ end
 
 def reverse_array(array)
   array.each do |elements|
-    elements.reverse!
+    elements.reverse
   end
+  array
 end
