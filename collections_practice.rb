@@ -20,4 +20,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
+  array.each do |elements|
+    elements.reverse
+  end
 end
