@@ -38,3 +38,6 @@ def sum_array(array)
     running_total + number
   end
 end
+
+def add_s(array)
+end
