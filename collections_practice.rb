@@ -34,4 +34,7 @@ def find_a(array)
 end
 
 def sum_array(array)
+  array.inject do |running_total, number|
+    running_total + number
+  end
 end
