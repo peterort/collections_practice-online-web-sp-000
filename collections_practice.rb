@@ -20,4 +20,5 @@ def swap_elements(array)
   new_array << array[1]
   new_array << array[3]
   new_array << array[2]
+  new_array
 end
